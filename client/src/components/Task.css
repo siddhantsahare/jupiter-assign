@@ -1,0 +1,53 @@
+.dropdown-inner {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 100%;
+}
+
+.dropdown-content {
+  background-color: #f3f3f3;
+}
+
+.dropdown-content:hover {
+  background-color: #f3f3f3;
+}
+
+.area {
+  height: 200px;
+}
+
+.scroller::-webkit-scrollbar {
+  height: 250px;
+}
+.scroller::-webkit-scrollbar-track {
+  background: white;
+}
+.scroller::-webkit-scrollbar-thumb {
+  background: #ddd;
+  visibility: hidden;
+}
+.scroller:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+.scroller {
+  overflow: auto;
+  font: 16px/1.5 Arial;
+
+  border: 1px solid #ddd;
+  height: 250px;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  margin-left: 20px;
+}

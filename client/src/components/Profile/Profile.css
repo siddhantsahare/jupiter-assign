@@ -1,0 +1,47 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  margin-top: -20px;
+  height: 100vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-profile {
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+.lead {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.header {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons > button {
+  margin: 0px 20px;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.card-details {
+  width: 100%;
+  padding-left: 40px;
+}

@@ -1,0 +1,68 @@
+.row {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #f3f3f3;
+}
+
+.sidebar > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 98%;
+  background-color: white;
+}
+.user-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg {
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.links {
+  width: 100%;
+  margin: 10px 10px;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+.links > div:first-child > p {
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.linkInner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.details {
+  position: absolute;
+  margin-top: 100px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
