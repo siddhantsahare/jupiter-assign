@@ -7,6 +7,8 @@
 2. Encryption and bearer token methodology.
 3. Once logged in, app will automatically log you back in when you visit the app again.
 4. Clean UI, built using Materialize css.
+5. Displays logged in or registered users name and email.
+5. Input fields do not allow more than 30 char.
 ```
 
 Also, few things to watch out,
